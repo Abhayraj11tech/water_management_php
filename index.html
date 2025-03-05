@@ -545,13 +545,14 @@
 
     </p>
     <div class="form">
-      <form action="">
-        <input type="text" name="name" required="required" placeholder="Your Name" class="form-input"><br>
-        <input type="email" name="email" required="required" placeholder="Your Email" class="form-input"><br>
-        <textarea name="message" required="required" placeholder="Your Message" class="form-textarea"></textarea><br>
-        <button id="submit" class="form-button">Send Message</button>
+      <form action="connect.php" method="GET">
+          <input type="text" name="name" required="required" placeholder="Your Name" class="form-input"><br>
+          <input type="email" name="email" required="required" placeholder="Your Email" class="form-input"><br>
+          <textarea name="message" required="required" placeholder="Your Message" class="form-textarea"></textarea><br>
+          <button type="submit" id="submit" class="form-button">Send Message</button>
       </form>
-    </div>
+  </div>
+  
 
 
   </div>
@@ -602,6 +603,6 @@
         navLinks.classList.toggle('nav-active');
     });
 </script>
-  < </body>
+   </body>
 
 </html>
