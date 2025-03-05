@@ -1,11 +1,20 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "GET") { 
     // Retrieve form data
+<<<<<<< HEAD
     $name = $_GET['name'] ?? ' ';
     $email = $_GET['email'] ?? ' ';
     $number = $_GET['number'] ?? ' ';
     $company = $_GET['company'] ?? ' ';
     $message = $_GET['message'] ?? ' ';
+=======
+$name = $_GET['name'] ?? ' ';
+$email = $_GET['email'] ?? ' ';
+$number = $_GET['number'] ?? ' ';
+$company = $_GET['company'] ?? ' ';
+$message = $_GET['message'] ?? ' ';
+
+>>>>>>> eec5804a0983d16a37439c16cbe808ac64c8e687
 
     // Database connection
     $conn = new mysqli('localhost', 'root', '', 'testPHP');
